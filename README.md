@@ -1,36 +1,35 @@
 # Tutorial 
 ---
 ###### tags: `ubuntu`, `python`, `linux`, `cuda`
-## [Installation for Ubuntu](./1_Installation/README.md)
+## [1_Installation for Ubuntu](./1_Ubuntu_Installation/README.md)
+Basic Installation for ubuntu.
 
-## Useful tools
-### 文字編輯器：vim, vscode, ...
-#### vim
-Installation
-```bash=
-sudo apt-get install vim
-```
+## [2_Terminal_usage](2_Terminal_usage/README.md)
+Introduce some commonly use command lines.
 
-#### vscode 
+## [3_Useful tools](/3_Useful_tools/README.md)
+<b>text editor:</b> vim, vscode, ...
 
-### Terminal 管理工具：tmux
+<b>Terminal management tool:</b> tmux
 
-### 分散式版本控制系統：git 
+<b>Distributed version control system:</b> git
 
-### 管理軟體建構程式：CMake
+<b>Tool to build, test and package software:</b> CMake
 
-## File type for linux
+## [4_File type for linux](./4_File_type/README.md)
 ### sh
 ### deb/rpm
 ### tar/gz/tar.gz
 
 
-## Python releated
+## [5_Python releated](./5_Python_util/README.md)
 ### architure
 - module
 - import
 - package
 
-### virtual environment management tool
-- Anaconda
-- virtualenv
+## [6_Installation for Anaconda](./6_Anaconda_installation/README.md)
+Tutorial for Installing Anaconda.
+
+## [7_Installation for Cuda and nvcc](./7_Install_CUDA_and_nvcc/README.md)
+Tutorial for Installing Cuda and nvcc.
