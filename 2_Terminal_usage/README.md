@@ -9,11 +9,9 @@
 ## Common Commands
 在介紹常用指令前，可能會有些人在網路上看到別人提供的指令有 <b>"\$"</b> 符號作為開頭，通常那是讓其他人知道這是要輸入在 Terminal 中的指令，但實際輸入指令時是不需要輸入的。
 
-![Alt text](image.png)
-
-ex. 
 ```bash=
-$ ls # 實際有效指令只有 ls，並沒有包含 $，複製指令的時候別不小心複製到
+user@my_computer_name:~$ ls 
+# 實際有效指令只有 ls，並沒有包含 $，複製指令的時候別不小心複製到
 ```
 
 ### Sudo
@@ -56,8 +54,9 @@ user@my_computer_name:~$ sudo
   ```
   sudo apt-get install curl # 安裝名為 "curl" 的軟體
   ```
-
-
+ 
+### Others common commands
+詳細使用範例可以到 reference 提供的網址或日後上網自行查詢
 | Command    | Description                |
 | :--------- | :------------------------ |
 | ls         | 列出目錄的內容 |
