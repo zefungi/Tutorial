@@ -53,10 +53,11 @@
     |n| 移動到下一個視窗(bash) |
     |${number}| 移動到特定號碼的視窗(bash) |
 
-    更多詳細內容可上 reference 裡的 tmux-cheatsheet 查詢
+    更多詳細內容可上 reference 裡的網站或是自行上網查詢
 
 - **reference**
     1. [tmux-cheatsheet.markdown](https://gist.github.com/MohamedAlaa/2961058)
+    2. [Tmux 使用教程](https://www.ruanyifeng.com/blog/2019/10/tmux.html)
 
 ## 分散式版本控制系統：git 
 - **Installation**
@@ -74,9 +75,9 @@
     | git pull | download remote git dir to local git dir |
     | git branch | show branch info |
     | git log | show log of commit and HEAD |
-    | git status | show status of current working tree
+    | git status | show status of current working tree |
 
 - **reference**
-1. [連猴子都能懂的 Git 入門指令](https://backlog.com/git-tutorial/tw/intro/intro1_1.html)
-2. [Git Document](https://git-scm.com/doc)
-
+  1. [連猴子都能懂的 Git 入門指令](https://backlog.com/git-tutorial/tw/intro/intro1_1.html)
+  2. [Git Document](https://git-scm.com/doc)
+  
