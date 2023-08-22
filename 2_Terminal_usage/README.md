@@ -3,7 +3,7 @@
 ## Introduce 
 終端機（Terminal）是一種命令列介面（Command-Line Interface, CLI），簡單說就是一個<b>提供使用者輸入指令的工具</b>，讓使用者能訪問操作系統，像是文件管理、軟體安裝、系統環境變數設置等功能。
 
-## 使用方式
+## Usage
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>：開啟一個新的終端機
 
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>：在現有的終端機開一個新的分頁
@@ -48,14 +48,14 @@ user@my_computer_name:~$ sudo ${PROGRAM_NAME} #${PROGRAM_NAME} 可替代為其�
     上述指令會將能更新的軟體套件一併升級，若只想更新特定軟體，可以在後面指定軟體名稱。
 
   ```
-  sudo apt-get upgrade tmux # 只升級 tmux 這個軟體
+  sudo apt-get upgrade tmux #只升級 tmux 這個軟體
   ```
 
 - **sudo apt-get install ${package} name you wish to install_**
   安裝指定的軟體，\${package} 請改成你要下載的軟體名稱
 
   ```
-  sudo apt-get install curl # 安裝名為 "curl" 的軟體
+  sudo apt-get install curl #安裝名為 "curl" 的軟體
   ```
  
 ### 3. Others common commands
@@ -78,7 +78,7 @@ user@my_computer_name:~$ sudo ${PROGRAM_NAME} #${PROGRAM_NAME} 可替代為其�
   | history           | 取得先前執行過的命令  |
   | pwd               | 顯示目前所在的資料夾位置（絕對位置）|
   | realpath ${filename}        | 顯示 filename 的位置（絕對位置）|
-## 路徑索引
+## File path Format
 不論是 Windows 或是 linux 系統，當系統在搜尋檔案時不外乎是要先取得檔案的位置才能進行存取，檔案路徑的呈現方式可分為 <b>絕對路徑</b> 與 <b>相對路徑</b>。
 
 - **絕對路徑**
@@ -88,7 +88,7 @@ user@my_computer_name:~$ sudo ${PROGRAM_NAME} #${PROGRAM_NAME} 可替代為其�
     1. /home/iris/.bashrc 
     2. C:Projects\apilibrary\apilibrary.sln
 
-  <font color=red>Warning: Linux 與 Windows 的路徑呈現方式不同，linux 是使用斜線，Windows 是使用反斜線</font>
+  <font color=red><b>Warning: Linux 與 Windows 的路徑呈現方式不同，linux 是使用斜線，Windows 是使用反斜線</b></font>
 
 - **相對路徑**
   顧名思義，系統找檔案會相對於當前他所在的位置去搜尋，相對路徑的表現方式如下所示
