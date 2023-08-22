@@ -22,7 +22,8 @@ user@my_computer_name:~$ ls
 通常須與其他指令（程式）一同使用（以管理員身份執行特定程式），<font color="red">請小心使用</font>
 
 ```bash=
-user@my_computer_name:~$ sudo ${PROGRAM_NAME} #${PROGRAM_NAME} 可替代為其他指令 ex. mv, rm, apt-get ...
+user@my_computer_name:~$ sudo ${PROGRAM_NAME} 
+#${PROGRAM_NAME} 可替代為其他指令 ex. mv, rm, apt-get ...
 ```
 
 ### 2. apt-get
@@ -48,14 +49,16 @@ user@my_computer_name:~$ sudo ${PROGRAM_NAME} #${PROGRAM_NAME} 可替代為其�
     上述指令會將能更新的軟體套件一併升級，若只想更新特定軟體，可以在後面指定軟體名稱。
 
   ```
-  sudo apt-get upgrade tmux #只升級 tmux 這個軟體
+  sudo apt-get upgrade tmux 
+  #只升級 tmux 這個軟體
   ```
 
 - **sudo apt-get install ${package} name you wish to install_**
   安裝指定的軟體，\${package} 請改成你要下載的軟體名稱
 
   ```
-  sudo apt-get install curl #安裝名為 "curl" 的軟體
+  sudo apt-get install curl 
+  #安裝名為 "curl" 的軟體
   ```
  
 ### 3. Others common commands

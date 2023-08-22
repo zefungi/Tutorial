@@ -9,7 +9,8 @@ shell script (.sh) 這種類型的檔案，簡單說就是一個腳本檔，你�
 <b>How to run .sh file</b>
 
 ```bash=
-bash test.sh #test.sh 可改為自己或是其他人寫好的 .sh 檔
+bash test.sh
+#test.sh 可改為自己或是其他人寫好的 .sh 檔
 ```
 
 ## Package file extension (deb, rpm)
@@ -19,14 +20,16 @@ bash test.sh #test.sh 可改為自己或是其他人寫好的 .sh 檔
     <b>How to run .deb file</b>
 
     ```bash=
-    dpkg -i ${PACKAGE_FILE.deb} #${PACKAGE_FILE.deb} 可改為其他你打算安裝的 .deb 檔
+    dpkg -i ${PACKAGE_FILE.deb}
+    #${PACKAGE_FILE.deb} 可改為其他你打算安裝的 .deb 檔
     ```
 
   - **rpm(Red Hat Package Manager)**
     RPM 是由基於 Red Hat 的 Linux 發行版使用的封裝格式，包括 Red Hat Enterprise Linux（RHEL）、CentOS、Fedora 等等。可以使用 <b>rpm</b> 套件安裝管理器進行套件的安裝、刪除與查詢。
 
     ```bash=
-    rpm -i ${PACKAGE_FILE.rpm} #${PACKAGE_FILE.rpm} 可改為其他你打算安裝的 .deb 檔
+    rpm -i ${PACKAGE_FILE.rpm} 
+    #${PACKAGE_FILE.rpm} 可改為其他你打算安裝的 .deb 檔
     ```
 
 ## Archive file (壓縮檔)

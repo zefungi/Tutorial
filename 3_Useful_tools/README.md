@@ -1,4 +1,4 @@
-# Installation for Ubuntu
+# Useful Tools
 
 ###### tags: `ubuntu`, `vim`, `vscode`
 
