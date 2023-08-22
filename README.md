@@ -17,10 +17,7 @@ Introduce some commonly use command lines.
 <b>Tool to build, test and package software:</b> CMake
 
 ## [4_File type for linux](./4_File_type/README.md)
-### sh
-### deb/rpm
-### tar/gz/tar.gz
-
+.sh (shell script) file usage, package file extension (deb, rpm), and some archive file (壓縮檔) compress and decompress method
 
 ## [5_Python releated](./5_Python_util/README.md)
 ### architure
