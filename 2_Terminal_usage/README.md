@@ -90,18 +90,17 @@ user@my_computer_name:~$ sudo ${PROGRAM_NAME} #${PROGRAM_NAME} 可替代為其�
 - **相對路徑**
   顧名思義，系統找檔案會相對於當前他所在的位置去搜尋，相對路徑的表現方式如下所示
   
-  1. .
-    "." 代表相對於當前的位置
-  2. ..
-    ".." 代表相對於當前位置的上一個資料夾位置
+  -  "\." 代表相對於當前的位置
+  -  "\.." 代表相對於當前位置的上一個資料夾位置
   
   以下使用 Ubuntu Terminal 示範其概念
   ```bash=
     iris@iris-System-Product-Name:~$ realpath .
     #Output: /home/iris
-    realpath ..
+    iris@iris-System-Product-Name:~$ realpath ..
     #Output: /home 
   ```
+
 ## reference
 1. [25 Must-Know Ubuntu Commands](https://learnubuntu.com/top-ubuntu-commands/)
 2. [Basic Ubuntu Commands](https://gist.github.com/TechRancher/770a7a2ab7f0edb687e8048e538122e3)
