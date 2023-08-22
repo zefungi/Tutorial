@@ -15,7 +15,8 @@ bash test.sh
 
 ## Package file extension (deb, rpm)
   - **deb(Debian Package)**
-    DEB 是由基於 Debian 的 Linux 發行版使用的封裝格式，包括 Debian 本身以及派生版如 Ubuntu 和 Linux Mint。可以使用 <b>dpkg</b> 套件安裝管理器進行套件的安裝、刪除與查詢。
+    DEB 是由基於 Debian 的 Linux 發行版使用的封裝格式，包括 Debian 本身以及派生版如 Ubuntu 和 Linux Mint。
+    可以使用 <b>dpkg</b> 套件安裝管理器進行套件的安裝、刪除與查詢。
 
     <b>How to run .deb file</b>
 
@@ -25,7 +26,8 @@ bash test.sh
     ```
 
   - **rpm(Red Hat Package Manager)**
-    RPM 是由基於 Red Hat 的 Linux 發行版使用的封裝格式，包括 Red Hat Enterprise Linux（RHEL）、CentOS、Fedora 等等。可以使用 <b>rpm</b> 套件安裝管理器進行套件的安裝、刪除與查詢。
+    RPM 是由基於 Red Hat 的 Linux 發行版使用的封裝格式，包括 Red Hat Enterprise Linux（RHEL）、CentOS、Fedora 等等。
+    可以使用 <b>rpm</b> 套件安裝管理器進行套件的安裝、刪除與查詢。
 
     ```bash=
     rpm -i ${PACKAGE_FILE.rpm} 
