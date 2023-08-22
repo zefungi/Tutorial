@@ -28,5 +28,5 @@ Introduce some commonly use command lines.
 ## [6_Installation for Anaconda](./6_Anaconda_installation/README.md)
 Tutorial for Installing Anaconda.
 
-## [7_Installation for Cuda and nvcc](./7_Install_CUDA_and_nvcc/README.md)
-Tutorial for Installing Cuda and nvcc.
+## [7_Installation for Cuda and nvcc](./7_Install_CUDA_and_cudnn/README.md)
+Tutorial for Installing Cuda and cudnn.
