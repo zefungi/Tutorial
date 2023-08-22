@@ -5,6 +5,7 @@
 
 ## 使用方式
 <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>T</kbd>：開啟一個新的終端機
+
 <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>T</kbd>：在現有的終端機開一個新的分頁
 
 ## Common Commands
